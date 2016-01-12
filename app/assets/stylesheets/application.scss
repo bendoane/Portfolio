@@ -20,14 +20,11 @@
  Project: Incanto
  Version: 1.0
  ------------------------------------------------------------------ */
-
  @import url("http://fonts.googleapis.com/css?family=Libre+Baskerville:400italic");
  @import url("http://fonts.googleapis.com/css?family=Lato:400,700,400italic");
-
  /* ------------------------------------------------------------------
  General Styles
  ------------------------------------------------------------------ */
-
  body {
  	background: #fff;
  	overflow-x: hidden;
@@ -44,7 +41,9 @@
  iframe {
  	border: 0;
  }
-
+#custom-collapse{
+  padding-right: 60px;
+}
  /* ------------------------------------------------------------------
  Selection
  ------------------------------------------------------------------ */
