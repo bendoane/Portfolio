@@ -1,0 +1,191 @@
+.wrapper
+  %section#hero.module-hero.module-parallax.bg-light-60
+    .hero-caption
+      .hero-text
+        %h5.mh-line-size-4.font-alt.m-b-50 Designer &amp; Creator
+        %br/
+        %h1.mh-line-size-2.font-alt.m-b-50 Benjamin Doane
+        %br/
+        %h5.mh-line-size-5.font-alt.m-b-50 Software Developer
+  %hr.divider/
+  %section.module
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          %h2.module-title.font-alt About Ben Doane
+          .module-subtitle.font-serif
+            Software Developer. Extrovert. Dance Teacher. Dark Beer Drinker.
+      .row
+        .col-sm-6
+          %h5.font-alt.m-t-0.m-b-20 I'm a creative thinker
+          My undergraduate degree is in Landscape Architecture.
+          %br
+          I went back school for
+          software development.
+          %br
+          I'm driven by my creativity and my desire to solve problems.
+          %br
+          After my 5 year degree in Architecture, I found my calling in building code.
+          %br
+          (Just a
+          different kind)
+          %br
+          I'm amazed by the similarities the two share in their problem
+          solving nature.
+          %br
+          In my journey as a developer, but I’ve discovered my
+          passion for learning, growing, and problem solving.
+        %br/
+
+        .col-sm-6
+          %h6.progress-title.font-alt Back-End - Ruby on Rails
+          .progress
+            .progress-bar.pb-dark{"aria-valuemax" => "100", "aria-valuemin" => "0", "aria-valuenow" => "65", :role => "progressbar", :style => "width: 80%;"}
+              %span.font-alt{:style => "opacity: 1;"}
+          %h6.progress-title.font-alt Front-End - HTML, CSS, JavaScript
+          .progress
+            .progress-bar.pb-dark{"aria-valuemax" => "100", "aria-valuemin" => "0", "aria-valuenow" => "40", :role => "progressbar", :style => "width: 50%;"}
+              %span.font-alt{:style => "opacity: 1;"}
+          %h6.progress-title.font-alt Communication &amp; Public Speaking
+          .progress
+            .progress-bar.pb-dark{"aria-valuemax" => "100", "aria-valuemin" => "0", "aria-valuenow" => "85", :role => "progressbar", :style => "width: 95%;"}
+              %span.font-alt{:style => "opacity: 1;"}
+          %h6.progress-title.font-alt Design & Problem Solving
+          .progress
+            .progress-bar.pb-dark{"aria-valuemax" => "100", "aria-valuemin" => "0", "aria-valuenow" => "75", :role => "progressbar", :style => "width: 75%;"}
+              %span.font-alt{:style => "opacity: 1;"}
+          %br/
+          %br
+        %h2.module-subtitle.font-alt Love what you do || Have fun doing it
+  %hr.divider/
+
+  %section#services.module
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          %h2.module-title.font-alt Stack
+
+      .row
+        .col-xs-4
+          .content-box
+            .content-box-icon{:style => "padding-top:70px;"}
+              = image_tag('Javascript.png')
+            %h5.content-box-title.font-alt JavaScript
+        .col-xs-4
+          .content-box
+            .content-box-icon
+              = image_tag("ruby-on-rails.png")
+            %h5.content-box-title.font-alt Ruby on Rails
+            .content-box-text
+        .col-xs-4
+          .content-box
+            .content-box-icon{:style => "padding-top:70px;"}
+              = image_tag("html-icon.png")
+            %h5.content-box-title.font-alt HTML, CSS, &amp; Bootstrap
+
+      .row
+        -# .col-xs-4
+        -#   .content-box
+        -#     .content-box-icon
+        -#       = image_tag("api-icon.png")
+        -#     %h5.content-box-title.font-alt RESTful APIs
+        .col-xs-4
+          .content-box
+            .content-box-icon
+              = image_tag("Github-icon.png")
+            %h5.content-box-title.font-alt Git-flow &amp; Github
+        .col-xs-4
+          .content-box
+            .content-box-icon
+              = image_tag("heroku-icon.png")
+            %h5.content-box-title.font-alt Heroku
+
+%hr.divider/
+
+.container
+  .row
+    .col-sm-6.col-sm-offset-3
+      %h2.module-title.font-alt Portfolio of Works
+      .module-subtitle.font-serif
+        \~~ Other than this webpage itself ~~
+
+  .row
+    .works-grid-wrapper
+      .works-grid.works-hover-w
+        .col-xs-4.img-responsive
+          .work-item.design{:style => "height: 325px;"}
+            %a{:href => "https://salty-journey-3187.herokuapp.com/"}
+              = image_tag("Todoodles-icon.png")
+              .work-caption.font-alt
+                %h3.work-title Todoodles
+                .work-descr
+                  A Simple List &amp; Task Managing App
+        .col-xs-4.img-responsive
+          .work-item.design{:style => "height: 325px;;"}
+            %a{:href => "http://www.alltheswingdancing.com"}
+              = image_tag("alltheswingdancing2x500.png")
+              .work-caption.font-alt
+                %h3.work-title All the Swing Dancing
+                .work-descr
+                  Swing Dance Event Posting and Tacking Site
+        .col-xs-4.img-responsive
+          .work-item.design{:style => "height: 325px;"}
+            %a{:href => "https://arcane-shore-9616.herokuapp.com/"}
+              = image_tag("globe-icon.png")
+              .work-caption.font-alt
+                %h3.work-title Indy Rubyists
+                .work-descr
+                  Find a Rubyist in Indy via GitHub API
+
+  %br/
+
+  .row.m-t-70.text-center
+    .col-sm-12
+      = link_to "More on Github", "https://github.com/bendoane", class: "btn btn-round btn-b"
+
+%br/
+
+%hr.divider/
+
+%br/
+%br/
+%hr.divider/
+
+%section#footer.module-small.bg-light
+  .container
+    .row.m-t-40
+      .col-sm-3
+        %h5.font-alt.m-t-0.m-b-20 TL;DR
+        Extrovert
+        %br
+        Designer
+        %br
+        Web Developer
+        %br
+        Fun to work around
+        %br
+        You should work with him.
+      .col-sm-3
+        %h5.font-alt.m-t-0.m-b-20 Follow Ben Doane
+        %ul.list-unstyled
+          %li
+            %a{:href => "https://www.linkedin.com/in/ben-doane-b9040348"} Linked In
+          %li
+          %li
+            %a{:href => "https://github.com/bendoane"} Github
+          %li
+            %a{:href => "http://uptobuildingcode.blogspot.com/"} Blogger
+      .col-sm-3
+        %h5.font-alt.m-t-0.m-b-20 Connect
+        Email: ben.doane@gmail.com
+        %br/
+        Phone: 812-499-1621
+        %hr/
+        = button_to "Resume for your pleasure", resume_path, class:"btn btn-round btn-b"
+      .col-sm-3.img-responsive
+        = image_tag("ben-ron-burgundy.png")
+%hr.divider/
+%footer
+  .container
+    .col-sm-12
+      %p.copyright.text-center.m-b-0 © 2017 Ben Doane, All Rights Reserved.
