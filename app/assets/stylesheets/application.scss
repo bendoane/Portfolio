@@ -203,42 +203,6 @@
  	text-shadow: none !important;
  }
 
- /* ------------------------------------------------------------------
- Forms
- ------------------------------------------------------------------- */
-
- .form-control {
- 	border: 2px solid #eee;
- 	height: 32px;
- 	letter-spacing: 1px;
- 	font-size: 10px;
- 	-webkit-border-radius: 2px;
- 	   -moz-border-radius: 2px;
- 	    -ms-border-radius: 2px;
- 	     -o-border-radius: 2px;
- 	        border-radius: 2px;
- 	-webkit-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
- 	   -moz-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
- 	     -o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
- 	        transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
- }
-
- .form-control:focus {
- 	border-color: #111;
- }
-
- /* Form sizes */
-
- .input-lg,
- .form-horizontal .form-group-lg .form-control {
- 	height: 42px;
- 	font-size: 12px;
- }
-
- .input-sm, .form-horizontal .form-group-sm .form-control {
- 	height: 29px;
- 	font-size: 10px;
- }
 
  /* ------------------------------------------------------------------
  Buttons
@@ -497,41 +461,6 @@
  	margin-top: 0;
  }
 
- /* -------------------------------------------------------------------
- Checkout table
- ------------------------------------------------------------------- */
-
- .checkout-table {
- 	border: 1px solid #eee;
- }
-
- .checkout-table > tbody > tr > td,
- .checkout-table > tbody > tr > th,
- .checkout-table > tfoot > tr > td,
- .checkout-table > tfoot > tr > th,
- .checkout-table > thead > tr > td,
- .checkout-table > thead > tr > th {
- 	border-top: 1px solid #eee;
- 	padding: 12px;
- }
-
- .checkout-table tr td,
- .checkout-table tr th {
- 	border-top: 1px solid #eee;
- 	border-bottom: 1px solid #eee;
- 	border-right: 1px solid #eee;
- 	border-left: 1px solid #eee;
- }
-
- .checkout-table tbody tr td:first-child,
- .checkout-table tbody tr th:first-child {
- 	max-width: 36px;
- }
-
- .pr-remove {
- 	vertical-align: middle !important;
- 	text-align: center;
- }
 
  /* ------------------------------------------------------------------
  Content box

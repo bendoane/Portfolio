@@ -38,15 +38,15 @@
             -#     %li.dropdown
             -#       = link_to "Building Code", "http://uptobuildingcode.blogspot.com/"
             %li.dropdown
+              = link_to "Resume", resume_path
+            %li.dropdown
               %a{"data-toggle" => "dropdown", :href => ""} Contact
               %ul.dropdown-menu{:role => "menu"}
                 %li.dropdown
                   %a{"data-toggle" => "dropdown", :href => "mailto:ben.doane@gamil.com"} ben.doane@gmail.com
+                  -# NOTE have a page made for emailing to me
                 %li.dropdown
                   %a{"data-toggle" => "dropdown"} Ph. 812-499-1621
                 %li.dropdown
                   = link_to "Linked In", "https://www.linkedin.com/in/ben-doane-b9040348"
-                %li.dropdown
-                  = link_to "Resume", resume_path
-    / /NAVIGATION
     = yield

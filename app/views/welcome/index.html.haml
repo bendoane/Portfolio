@@ -2,8 +2,6 @@
   %section#hero.module-hero.module-parallax.bg-light-60
     .hero-caption
       .hero-text
-        %h5.mh-line-size-4.font-alt.m-b-50 Designer &amp; Creator
-        %br/
         %h1.mh-line-size-2.font-alt.m-b-50 Benjamin Doane
         %br/
         %h5.mh-line-size-5.font-alt.m-b-50 Software Developer
@@ -33,7 +31,7 @@
           I'm amazed by the similarities the two share in their problem
           solving nature.
           %br
-          In my journey as a developer, but I’ve discovered my
+          In my journey as a developer, I’ve discovered my
           passion for learning, growing, and problem solving.
         %br/
 
@@ -59,46 +57,46 @@
         %h2.module-subtitle.font-alt Love what you do || Have fun doing it
   %hr.divider/
 
-  %section#services.module
-    .container
-      .row
-        .col-sm-6.col-sm-offset-3
-          %h2.module-title.font-alt Stack
-
-      .row
-        .col-xs-4
-          .content-box
-            .content-box-icon{:style => "padding-top:70px;"}
-              = image_tag('Javascript.png')
-            %h5.content-box-title.font-alt JavaScript
-        .col-xs-4
-          .content-box
-            .content-box-icon
-              = image_tag("ruby-on-rails.png")
-            %h5.content-box-title.font-alt Ruby on Rails
-            .content-box-text
-        .col-xs-4
-          .content-box
-            .content-box-icon{:style => "padding-top:70px;"}
-              = image_tag("html-icon.png")
-            %h5.content-box-title.font-alt HTML, CSS, &amp; Bootstrap
-
-      .row
-        -# .col-xs-4
-        -#   .content-box
-        -#     .content-box-icon
-        -#       = image_tag("api-icon.png")
-        -#     %h5.content-box-title.font-alt RESTful APIs
-        .col-xs-4
-          .content-box
-            .content-box-icon
-              = image_tag("Github-icon.png")
-            %h5.content-box-title.font-alt Git-flow &amp; Github
-        .col-xs-4
-          .content-box
-            .content-box-icon
-              = image_tag("heroku-icon.png")
-            %h5.content-box-title.font-alt Heroku
+-# NOTE This needs a ton of redoing.
+  -# %section#services.module
+  -#   .container
+  -#     .row
+  -#       .col-sm-6.col-sm-offset-3
+  -#         %h2.module-title.font-alt Stack
+      -# .row
+      -#   .col-xs-4
+      -#     .content-box
+      -#       .content-box-icon{:style => "padding-top:70px;"}
+      -#         = image_tag('Javascript.png')
+      -#       %h5.content-box-title.font-alt JavaScript
+      -#   .col-xs-4
+      -#     .content-box
+      -#       .content-box-icon
+      -#         = image_tag("ruby-on-rails.png")
+      -#       %h5.content-box-title.font-alt Ruby on Rails
+      -#       .content-box-text
+      -#   .col-xs-4
+      -#     .content-box
+      -#       .content-box-icon{:style => "padding-top:70px;"}
+      -#         = image_tag("html-icon.png")
+      -#       %h5.content-box-title.font-alt HTML, CSS, &amp; Bootstrap
+      -#
+      -# .row
+      -#   -# .col-xs-4
+      -#   -#   .content-box
+      -#   -#     .content-box-icon
+      -#   -#       = image_tag("api-icon.png")
+      -#   -#     %h5.content-box-title.font-alt RESTful APIs
+      -#   .col-xs-4
+      -#     .content-box
+      -#       .content-box-icon
+      -#         = image_tag("Github-icon.png")
+      -#       %h5.content-box-title.font-alt Git-flow &amp; Github
+      -#   .col-xs-4
+      -#     .content-box
+      -#       .content-box-icon
+      -#         = image_tag("heroku-icon.png")
+      -#       %h5.content-box-title.font-alt Heroku
 
 %hr.divider/
 
@@ -154,6 +152,7 @@
 %section#footer.module-small.bg-light
   .container
     .row.m-t-40
+      .col-sm-1
       .col-sm-3
         %h5.font-alt.m-t-0.m-b-20 TL;DR
         Extrovert
@@ -162,26 +161,23 @@
         %br
         Web Developer
         %br
-        Fun to work around
-        %br
         You should work with him.
       .col-sm-3
-        %h5.font-alt.m-t-0.m-b-20 Follow Ben Doane
+        %h5.font-alt.m-t-0.m-b-20 Follow
         %ul.list-unstyled
           %li
             %a{:href => "https://www.linkedin.com/in/ben-doane-b9040348"} Linked In
           %li
-          %li
             %a{:href => "https://github.com/bendoane"} Github
-          %li
-            %a{:href => "http://uptobuildingcode.blogspot.com/"} Blogger
-      .col-sm-3
+          -# %li
+          -#   %a{:href => "http://uptobuildingcode.blogspot.com/"} Blogger
+      .col-sm-2
         %h5.font-alt.m-t-0.m-b-20 Connect
-        Email: ben.doane@gmail.com
+        ben.doane@gmail.com
         %br/
-        Phone: 812-499-1621
+        Tel: 1-812-499-1621
         %hr/
-        = button_to "Resume for your pleasure", resume_path, class:"btn btn-round btn-b"
+        = button_to "I'm Ron Burgundy?", resume_path, class:"btn btn-round btn-b"
       .col-sm-3.img-responsive
         = image_tag("ben-ron-burgundy.png")
 %hr.divider/
